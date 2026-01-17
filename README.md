@@ -7,7 +7,6 @@
 3. [Objective of analysis](#objective)
 4. [Network traffic analysis](#analysis)
 5. [Insights and lessons learned](#insight)
-6. [Conclusion](#conclusion)
 
 ---
 
