@@ -61,7 +61,7 @@ Tujuan analisis meliputi:
 |H. Dugaan akar penyebab|Akar masalah mengarah pada gangguan layanan DNS di sisi server tujuan. Kemungkinan penyebab meliputi layanan DNS yang tidak aktif, kesalahan konfigurasi jaringan, atau aturan firewall yang memblokir akses ke port 53. Pada beberapa kondisi, gangguan ini juga bisa dipicu oleh serangan yang menargetkan layanan DNS.|
 |I. Langkah selanjutnya|Langkah berikutnya difokuskan pada pemulihan layanan DNS dan pencegahan kejadian serupa. Tim teknis perlu memastikan layanan DNS berjalan normal pada port 53 serta meninjau konfigurasi firewall agar lalu lintas DNS tidak terblokir. Pengujian konektivitas DNS dilakukan dari beberapa titik jaringan untuk memastikan masalah tidak bersifat lokal. Pemantauan lalu lintas DNS juga perlu ditingkatkan agar gangguan dapat terdeteksi lebih dini. Setelah perbaikan diterapkan, akses website diuji kembali untuk memastikan layanan sudah kembali stabil.|
 
-Analysis notes:
+**Analysis notes:**
 
 Analisis dilakukan dengan memanfaatkan tcpdump untuk melihat langsung pola lalu lintas jaringan dan menangkap aktivitas yang terasa tidak wajar. Perhatian difokuskan pada asal dan tujuan komunikasi, jenis protokol yang digunakan, serta intensitas paket yang muncul dalam waktu singkat. Hasil pengamatan pada data menunjukkan adanya pola trafik yang berbeda dari kondisi normal. Temuan ini menjadi titik awal investigasi untuk menelusuri penyebab insiden dan memahami dampaknya terhadap jaringan.
 
