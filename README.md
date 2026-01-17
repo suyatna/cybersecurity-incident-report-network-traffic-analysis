@@ -63,7 +63,7 @@ Tujuan analisis meliputi:
 
 **Analysis notes:**
 
-Analisis dilakukan dengan memanfaatkan tcpdump untuk melihat langsung pola lalu lintas jaringan dan menangkap aktivitas yang terasa tidak wajar. Perhatian difokuskan pada asal dan tujuan komunikasi, jenis protokol yang digunakan, serta intensitas paket yang muncul dalam waktu singkat. Hasil pengamatan pada data menunjukkan adanya pola trafik yang berbeda dari kondisi normal. Temuan ini menjadi titik awal investigasi untuk menelusuri penyebab insiden dan memahami dampaknya terhadap jaringan.
+Analisis dilakukan menggunakan tcpdump untuk mengamati pola lalu lintas jaringan dan mengidentifikasi aktivitas yang tidak biasa. Fokus utama diarahkan pada sumber dan tujuan komunikasi, jenis protokol, serta frekuensi paket yang muncul dalam waktu singkat. Berdasarkan hasil observasi pada tabel, ditemukan pola trafik yang menyimpang dari kondisi normal, yang mengindikasikan potensi anomali pada jaringan. Temuan ini menjadi dasar awal dalam proses investigasi lebih lanjut untuk menentukan penyebab dan dampak insiden.
 
 ---
 
