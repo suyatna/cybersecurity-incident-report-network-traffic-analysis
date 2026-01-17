@@ -5,7 +5,7 @@
 1. [Background](#background)
 2. [Incident overview](#scenario)
 3. [Objective of analysis](#objective)
-4. [Traffic analysis process](#analysis)
+4. [Network traffic analysis](#analysis)
 5. [Insights and lessons learned](#insight)
 6. [Conclusion](#conclusion)
 
